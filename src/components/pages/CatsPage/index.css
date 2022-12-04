@@ -1,0 +1,74 @@
+.cats {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.cats_images_container {
+  background: #01403F;
+}
+
+.cats .scale img {
+  width: 320px;
+  height: 450px;
+}
+
+.img {
+  position: relative;
+}
+
+.cats_content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.description {
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  opacity: 0.85;
+  border: none;
+}
+
+.description h2 {
+  z-index: 5;
+  color: aquamarine;
+  padding-left: 5px;
+}
+
+.description::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.61);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.latest {
+  gap: 10px;
+}
+
+.cats_card {
+  margin: 56px 40px;
+  cursor: pointer;
+}
+
+.cats_card .text {
+  padding: 10px;
+  color: white;
+  margin: 36px 0;
+}
+
+.scale img {
+  transition: 1s;
+  display: block; }
+
+.scale img:hover {
+  transform: scale(1.2); }
+
+.red {
+  color: red; }

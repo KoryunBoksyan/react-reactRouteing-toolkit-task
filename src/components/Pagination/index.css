@@ -1,0 +1,28 @@
+.slider {
+  width: 100%;
+  margin-bottom: 64px;
+  background: black;
+}
+
+.slider .slider_container {
+  display: flex;
+  justify-content: center;
+}
+
+.slider .slider_container div {
+  border: 1px solid white;
+  padding: 8px;
+}
+
+.slider .slider_container div:hover {
+  background-color: white;
+}
+
+.slider .slider_container div:hover span {
+  color: black;
+}
+
+.slider .slider_container div span {
+  text-decoration: none;
+  color: white;
+}
